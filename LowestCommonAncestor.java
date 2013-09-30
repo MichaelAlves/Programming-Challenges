@@ -103,8 +103,8 @@ public class LowestCommonAncestor{
 	    	if(a < rootn.value && b < rootn.value)	//node A and B in left subtree
 	    		return findLCA(rootn.left, a, b);
 	    	if((a < rootn.value && rootn.value == b)|| (b > rootn.value && rootn.value==a)) //this algorithm implicitly assumes that a node can be its own ancestor. However, the codeeval problem
-	    		return findParent(root, rootn);												//defines ancestor differently. In the case where node A (or B) == value
-	    																					// and node B(or A) is in a subtree of node A (or B), find the parent of node A (or B)
+	    		return findParent(root, rootn);						//defines ancestor differently. In the case where node A (or B) == value
+	    											// and node B(or A) is in a subtree of node A (or B), find the parent of node A (or B)
 	    	return rootn;	//return the node where node A and B break off into separate branches
 	    }
 	   
