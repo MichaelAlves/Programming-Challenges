@@ -5,7 +5,7 @@ TopCoder
 
 - [Bonuses - SRM 145, Division I Level I](http://community.topcoder.com/stat?c=problem_statement&pm=1677)
 
-- [UserId - SRM 164, Division I Level 1]()
+- [UserId - SRM 164, Division I Level 1](http://community.topcoder.com/stat?c=problem_statement&pm=1754)
 
 
 CodeEval
