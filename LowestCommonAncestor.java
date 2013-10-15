@@ -120,13 +120,13 @@ public class LowestCommonAncestor{
 		
 		/*Tree appearance 
 		 * 
-		 * 				30
-		 *             /  \
+		 * 		            30
+		 *             		   /  \
 		 * 			  8   52
 		 * 			 / \   
-		 * 			3	20
-		 * 		   	   /  \
-		 * 			  10   29
+		 * 			3  20
+		 * 		   	  /  \
+		 * 			 10   29
 		 * 
 		 * 
 		 * */
